@@ -182,7 +182,7 @@ def start_attendance_management_bot():
     init_logger()
     check_init_bot()
     init_rich_menu_first()
-    init_calendar_first()
+#     init_calendar_first()
 
     asyncio.get_event_loop().run_forever()
     server.stop()
