@@ -39,8 +39,8 @@ SECRET_KEY_NAME = "private_20210728153958.key"
 LOCAL_ADDRESS = "https://ifocus-line-works-sample-bot.herokuapp.com/"
 
 # DB config
-DB_HOST = "ec2-52-6-211-59.compute-1.amazonaws.com"
-DB_NAME = "d53cblj1dfv3b5"
-DB_USER = "ufozxmpxxivzrm"
+DB_HOST = "ec2-35-174-56-18.compute-1.amazonaws.com"
+DB_NAME = "d434jov57qhbn8"
+DB_USER = "chkcpmuumqxnob"
 DB_PORT = "5432"
-DB_PASSWORD = "bc316cde7d5e61ae64a0d37297100b33faa6a32c48925c998f4adda892f91075"
+DB_PASSWORD = "c16a71073f0d5fab214b776dbf3ccec1e708106ae458f2f19b1074060c97ac30"
