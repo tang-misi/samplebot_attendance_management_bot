@@ -25,7 +25,7 @@ DEFAULT_LANG = 'ja'
 TZone = "Asia/Tokyo"
 
 # account
-ADMIN_ACCOUNT = "admin@xxx.com"
+ADMIN_ACCOUNT = "tang.misi@eyefocuscoltd"
 DOMAIN_ID = 12044709
 
 # api
