@@ -42,6 +42,7 @@ from attendance_management_bot.externals.calendar_req import init_calendar
 from attendance_management_bot.constant import API_BO, RICH_MENUS
 from attendance_management_bot.model.initStatusDBHandle import insert_init_status, \
     get_init_status
+from attendance_management_bot.model.data import *
 
 import psutil
 
@@ -183,6 +184,8 @@ def start_attendance_management_bot():
     check_init_bot()
     init_rich_menu_first()
 #     init_calendar_first()
+
+    make_text("hello on startup")
 
     asyncio.get_event_loop().run_forever()
     server.stop()
